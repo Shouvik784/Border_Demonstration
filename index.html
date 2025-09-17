@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Styling Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Border Styling Demo</h1>
+        
+        <div class="info-panel">
+            <h2>Border Properties</h2>
+            <p>Borders in CSS can be styled using three main properties:</p>
+            <ul>
+                <li><strong>border-width</strong>: Sets the thickness of the border</li>
+                <li><strong>border-style</strong>: Defines the style of the border (solid, dashed, dotted, etc.)</li>
+                <li><strong>border-color</strong>: Sets the color of the border</li>
+            </ul>
+            <p>You can also use the shorthand: <span class="code">border: width style color;</span></p>
+        </div>
+        
+        <h2>Border Styles</h2>
+        <div class="border-demo">
+            <div class="border-box solid">Solid Border</div>
+            <div class="border-box dashed">Dashed Border</div>
+            <div class="border-box dotted">Dotted Border</div>
+            <div class="border-box double">Double Border</div>
+        </div>
+        
+        <div class="border-demo">
+            <div class="border-box groove">Groove Border</div>
+            <div class="border-box ridge">Ridge Border</div>
+            <div class="border-box inset">Inset Border</div>
+            <div class="border-box outset">Outset Border</div>
+        </div>
+        
+        <div class="info-panel">
+            <h2>Border Radius</h2>
+            <p>The <span class="code">border-radius</span> property is used to add rounded corners to elements.</p>
+            <p>You can specify different radii for each corner using the longhand properties or the shorthand.</p>
+        </div>
+        
+        <h2>Border Radius Examples</h2>
+        <div class="border-demo">
+            <div class="border-box rounded-sm">Small Radius (8px)</div>
+            <div class="border-box rounded-md">Medium Radius (15px)</div>
+            <div class="border-box rounded-lg">Large Radius (30px)</div>
+            <div class="border-box circle">Circle</div>
+        </div>
+        
+        <div class="border-demo">
+            <div class="border-box custom-radius">Custom Radius<br>Each corner has<br>different radius</div>
+        </div>
+        
+        <div class="info-panel">
+            <h3>CSS Code Examples</h3>
+            <p><strong>Basic Border:</strong> <span class="code">border: 2px solid #3498db;</span></p>
+            <p><strong>Border Radius:</strong> <span class="code">border-radius: 10px;</span></p>
+            <p><strong>Individual Corners:</strong> <span class="code">border-radius: 10px 5px 15px 20px;</span> (top-left, top-right, bottom-right, bottom-left)</p>
+            <p><strong>Circle:</strong> <span class="code">border-radius: 50%; width: 100px; height: 100px;</span></p>
+        </div>
+    </div>
+</body>
+</html>
